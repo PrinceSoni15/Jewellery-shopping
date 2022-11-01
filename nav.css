@@ -1,0 +1,23 @@
+.container{
+    margin-left: 50px;
+    color: black;
+   
+}
+
+.navbar-nav > li{
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+  .search{
+    margin-right: 0;
+  }
+  
+
+ul.nav-item dropdown{
+    color: white;
+  }
+
+
+
+  

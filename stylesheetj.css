@@ -1,0 +1,306 @@
+html{
+    height: 100%;
+}
+*{
+    box-sizing:border-box
+}
+
+
+
+h3{
+    font-style: italic;
+}
+
+
+
+#head{
+    padding-top: 25px;
+    font-family: cursive;
+} 
+
+/* navbar
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+Global 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar Custom */
+
+#logo-image{
+    width: 3.5rem;
+    height: 3rem;
+    padding: 0%;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    font-family: 'Playfair Display', serif;
+    margin-right: 3rem;
+    margin-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+#navbarDropdown:hover{
+    color: rgb(255, 209, 5);
+}
+
+
+input[type="search"]
+{
+    margin-right: 0%;
+}
+
+
+
+.bg{
+    background-color:#f3cdb7;
+    
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: auto;
+    padding: 24px;
+}
+.bg:after{
+    display: table;
+  clear: both;
+  content: "";
+
+}
+.bg1{
+    background-color:#f0c4ab;
+    
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: auto;
+    padding: 24px;
+}
+.bg:after1{
+    display: table;
+  clear: both;
+  content: "";
+
+}
+.top {
+    border-radius: 50%;
+    position: absolute;
+    width: 5%;
+    left: 20px;
+    top: 90px;
+    border: 1px solid black;
+    z-index: 1;
+   }
+#ix{
+    
+    
+}
+.imgg{
+    margin-top:20px ;
+    margin: 3%;
+    font-family: cursive;
+    position: relative;
+  text-align: center;
+  
+  
+}
+.centrtext{
+    
+    width: 100%;
+    height: 600px;
+    background-image: url(https://bnsec.bluenile.com/bluenile/is/image/bluenile/Alloy_052021_SHOT18_Quality_and_Value_Loose_Diamonds_Engagement_and_Diamond_Jewelry?$MODRN_HP_Hero_lrg$&rgn=500%2C2640%2C7000%2C0&hei=813&wid=2000&fmt=webp);
+    text-align: center;
+  
+  
+
+}
+.text1{
+    color: black;
+    text-align: end;
+    text-decoration: solid;
+    font-style: italic;
+    font-family: cursive;
+    margin-right: 20px;
+}
+
+#text{
+    z-index: -1;
+    color: #0C1636;
+    text-align: center;
+   
+} 
+.kj{
+    text-align: left;
+    
+    width: 100%;
+    height: 500px;
+    background-image: url(https://bnsec.bluenile.com/bluenile/is/image/bluenile/Q2-Refresh_2022_JSP_6300x2997?$alloy_default$&hei=951&wid=2000&crop=185%2C66%2C6085%2C2894&anchor=3227%2C1513&fmt=webp);
+
+}
+
+#kj11{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#kj1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+   .category{
+    text-align: center;
+    
+   }
+   .connect_us{
+    text-align: center;
+   }
+.img{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+   #mi{
+    margin-left: 90px;
+    margin-right: 90px;
+   }
+   #mi1{
+    margin-left: 90px;
+    margin-right: 90px;
+   }
+
+   .left{
+       position: absolute;
+       margin-left: 10px;
+       color: black;
+       text-align: left;
+       
+   }
+   .ftr{
+    text-align: center;
+    margin-left: 35px;
+}
+#gender{
+    text-align: center;
+}
+#dcr{
+    margin-left: 0px;
+    
+
+}
+
+#dcr1{
+    margin-right: 0px;
+}
+
+#ab{
+    
+    text-align: center;
+}
+
+.text{
+    color: white;
+    height: 370px;
+    width: 100%;
+    text-decoration: solid;
+    font-family: cursive;
+    text-align: center;
+    background-image: url(https://kinclimg5.bluestone.com/f_webp,c_scale,w_1190,b_rgb:ffffff/product/dynamic_banner/desktop/home/1653672944066-BS_YNecklaces_Desktop_Homepage_Banner.jpg);
+    
+    
+}
+.style{
+    margin-left: 10px;
+    
+    text-align: center;
+    font-family: cursive;
+    font-variant: normal;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+}
+   .middle{
+       position: relative;
+       text-align: center;
+       margin-left: 28%;
+       color: black;
+
+   }
+   .right{
+    float: right;
+      position: relative;
+      right: 15px;
+       color: black;
+       text-align: right;
+   }
+   .right1{
+    float: right;
+      position: relative;
+      bottom: 270px;
+       color: black;
+       text-align: right;
+   }
+   .left1{
+       position: absolute;
+       margin-left: 10px;
+       color: black;
+       text-align: left;
+       
+   }
+   .middle1{
+       position: relative;
+       text-align: center;
+       margin-left: 18px;
+       bottom: 140px;
+       color: black;
+       
+
+   }
+   .back-video{
+    width: 100%;
+   }
+  
+
+   #mail{
+       background-color:#f4d6c4 ;
+   }
+   #btn{
+       background-color: #f3cdb7;
+   }
+   #btn:hover{
+    background-color: #e7b598;
+   }
+
+   .navbar-dark .navbar-brand{
+    height: 3rem;
+    width: 2.7rem;
+   }
+
+
+   #m{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+   }
+   #w{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+   }
+   #k{
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+   }
+
+   /*footer*/
+
+   .btn-light {
+    --bs-btn-bg: #ddd;
+}

@@ -1,0 +1,172 @@
+body{
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.card{
+    background-color:white;
+   
+}
+
+.btn btn-primary{
+    display: inline-block;
+    background-color: black;
+}
+
+.fa fa-heart{
+    margin-left: 20px;
+}
+
+.btn{
+    background-color: black;
+    display: inline-block;
+    border: 5px 5px 5px;
+    width: 16rem;
+}
+
+.btn:hover{
+    color: black;
+    background-color: red;
+}
+
+.mrp{
+    text-decoration: line-through;
+    margin: 0; 
+    display: inline;
+}
+
+.price{
+color: black;
+
+margin: 0; 
+display: inline;
+
+}
+
+.price:hover{
+    color: red;
+    font-family: cursive;
+}
+
+.icon{
+    position: relative;
+    padding-left: 13rem;
+    color: black;
+    
+}
+
+.icon1{
+    position: relative;
+    color: black;
+}
+
+.icon:hover{
+    color: red;
+}
+.icon1:hover{
+    color: red;
+}
+
+.card-title:hover{
+    color: red;
+}
+
+
+.card_next{
+    float: right;
+    padding-top: 0%;
+}
+
+
+
+
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 19%;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0px 0px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 6px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+        background-color: #f1f1f1;
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+
+  /*slider */
+.wrapper{
+    min-height: 400px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+
+.wrapper .item{
+width: 300px;
+   
+   text-align: center;
+   background-color: #ddd;
+margin-right: 2px;
+
+}
+
+.tq{
+   
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: solid;
+    font-style: italic;
+
+    border-width:10px;
+    border-style: solid;"
+   
+}
+
+
+/* back button for home*/
+
+#backs{
+    left: 0px;
+    float: left;
+}
+
+.btn-light {
+    --bs-btn-bg:white;
+    background-color: #ddd;
+    flex: auto;
+ 
+}
